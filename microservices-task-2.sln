@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservices-task-2", "microservices-task-2\microservices-task-2.csproj", "{0E9F504A-698E-470A-9B04-B4B9DB70F8C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsumeAnAPI", "ConsumeAnAPI", "{2CC4C57C-3D75-4F87-A0E9-23E9D59571AD}"
+	ProjectSection(SolutionItems) = preProject
+		ConsumeAnAPI\index.html = ConsumeAnAPI\index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E9F504A-698E-470A-9B04-B4B9DB70F8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9F504A-698E-470A-9B04-B4B9DB70F8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9F504A-698E-470A-9B04-B4B9DB70F8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9F504A-698E-470A-9B04-B4B9DB70F8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C6E4E9B-CF8C-44FE-BFC2-3F6CB674883D}
+	EndGlobalSection
+EndGlobal

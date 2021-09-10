@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<header>
+    <meta charset="utf-8" />
+    <title>microservices-task-2</title>
+
+</header>
+<customHeaders>
+    <add name="Access-Control-Allow-Origin" value="*" />
+</customHeaders>
+<body>
+    <h1>microservices-task-2</h1> <br />
+    fetech url: https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/sgd.json <br />
+    Date: <label id='date1'></label><br />
+    SGD: <label id='sgd1'></label><br />
+    <script>
+        fetch('https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/sgd.json')
+            .then(res => res.json())
+            .then(data => {
+                var obj = JSON.parse(JSON.stringify(data));
+                document.getElementById('date1').innerText = obj.date;
+                document.getElementById('sgd1').innerText = obj.sgd;
+                console.log(JSON.stringify(data))
+            })
+
+
+
+    </script>
+</body>
+</html>
